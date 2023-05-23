@@ -1,0 +1,11 @@
+
+@{
+    ViewData["Title"] = "Detalle Pais";
+}
+<main>
+    <img src="/imagenes/@ViewBag.Pais.imgBandera">
+    <h1> Nombre: @ViewBag.Pais.Nombre </h1>
+    <h2> Poblacion: @ViewBag.Pais.Poblacion </h2>
+    <h3> Fecha Independencia: @ViewBag.Pais.FechaIndependencia.ToShortDateString()</h3>
+    <h4> Atractivo turistico: @ViewBag.Pais.AtractivosTuristicos </h4>
+</main>
